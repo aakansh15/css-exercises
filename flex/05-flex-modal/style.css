@@ -54,6 +54,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  font-weight: 600;
 }
 
 button.continue {
@@ -66,4 +67,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Solution */
+.modal {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  margin: 20px 10px;
+}
+
+.right-section {
+  margin: 20px 10px 20px 20px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
